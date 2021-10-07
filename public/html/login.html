@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>NightOwl</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body id="loginPage">
+  <div class="container pt-5">
+    <div class="row">
+      <img class="mx-auto" src="img/loginImage.jpg">
+    </div>
+    <div class="alert alert-error moon pb-0" role="alert">
+      <p class="text-center mb-0">Wrong Username or Password!</p>
+    </div>
+    <form id="form" action="/auth" method="POST">
+      <div class="row mx-5 my-3 d-flex justify-content-center">
+        <input id="username" class="inputbox" type="text" name="username" placeholder="Username" required>
+        <input id="password" class="inputbox" type="password" name="password" placeholder="Password" required>
+        <button id="login" class="moon" type="submit"><h3>Login</h3></button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

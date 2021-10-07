@@ -1,0 +1,90 @@
+html body{
+  background-color: #002528;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+button{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+footer{
+  background-color: #111f22;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+textarea{
+  width: 100%;
+  height: auto;
+  font-size: 16px;
+  resize: none;
+  background-color: #223F44;
+  border: 3px solid #F4FFF8;
+  color: #F4FFF8;
+  border-radius: 6px;
+}
+
+p{
+  word-wrap: break-word;
+}
+
+#errorText{
+  font-family: "Big Shoulders Stencil Text", cursive;
+  text-align: center;
+  font-size: 100px;
+}
+
+#loginPage{
+  padding-top: 0px;
+}
+
+.err{
+  margin: auto;
+}
+
+.inputbox{
+  background-color: #223F44;
+  border: 3px solid #F4FFF8;
+  color: #F4FFF8;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.username{
+  font-size: 12px;
+}
+
+.moon{
+  color: #f1cb3e;
+}
+
+.mytime{
+  float: right;
+  font-size: 12px;
+}
+
+.theirtime{
+  float: right;
+  font-size: 12px;
+}
+
+.chatbubble{
+  font-size: 16px;
+  padding: 5px;
+  margin-bottom: 40px;
+}
+
+.navbar{
+  font-family: "Big Shoulders Stencil Text", cursive;
+  background-color: #111f22;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>NightOwl</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  	integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="navbar navbar-expand-lg fixed-top py-3">
+        <img src="img/logo.png">
+        <h3 class="moon">NightOwl</h3>
+      </div>
+    </header>
+
+    <div id="messageContainer"></div>
+
+    <footer class="fixed-bottom">
+      <div class="row px-4 py-4">
+        <div class="col-9 d-flex justify-content-center align-items-center">
+          <textarea id="messageInput" maxlength="255"></textarea>
+        </div>
+        <div class="col-3 d-flex justify-content-center align-items-center">
+          <button id="send" class="moon"><h3>Send</h3></button>
+        </div>
+      </div>
+    </footer>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/chat.js"></script>
+  </body>
+</html>
